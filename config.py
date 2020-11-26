@@ -4,10 +4,11 @@ import cx_Oracle
 cx_Oracle.init_oracle_client(lib_dir="/Users/sarikhin/instantclient_19_8")
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'ini sangat rahasia'
-
-@staticmethod
-def init_app(app):
-    pass
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    
+    @staticmethod
+    def init_app(app):
+        pass
 
 class DevelopmentConfig(Config):
     DEBUG = True

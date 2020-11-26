@@ -6,4 +6,4 @@ from ..models import User
 
 @main.route('/',methods=['GET','POST'])
 def index():
-    return render_template('base_site.html')
+    return render_template('index.html')
