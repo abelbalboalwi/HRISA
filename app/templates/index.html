@@ -9,7 +9,8 @@
 {% block content %}
   <div class="right_col" role="main">
     <!-- top tiles -->
-    <H1>SELAMAT DATANG DI HRISA</H1>
+    <H1>SELAMAT DATANG DI HRISA  {{ current_user.username.upper() }}</H1>
+    
   </div>
 {% endblock content %}
 
