@@ -1,14 +1,14 @@
-#HRISA 
+# HRISA 
 merupakan project tugas matakuliah Basis Data Oracle
 
 ## menjalankan project di local komputer
 
-##pre-requires
+## pre-requires
 1. sudah terinstall gitkraken & sudah daftar akun
 2. sudah punya akun gitlab
 3. terinstall pyhton
 
-##langkah-langkah
+## langkah-langkah
 
 1. clone repo git https://gitlab.com/IKHINtech/hrisa ke giktraken
 2. masuk ke direktori repo(untuk yang menggunakan vscode cukup buka menggunakan vscode)
