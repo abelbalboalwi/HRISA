@@ -17,9 +17,16 @@ merupakan project tugas matakuliah Basis Data Oracle
 5. ketik py -3 -m venv venv
 6. aktifasi venv ketik venv\Scripts\activate
 7. ketik pip install -r requirements.txt
-8. ketik pip install cx_Oracle
-9. kalo sudah berhasil bisa coba :
+8. kalo sudah berhasil bisa coba :
     1. set FLASK_APP=hrsia.py
     2. set FLASK_DEBUG=1
     3. flask run
     4. web akan berjalan di 127.0.0.1:5000
+
+## Running APP
+
+1. aktivasi venv dengan  ketik venv\Scripts\activate
+2. set FLASK_APP=hrsia.py
+3. set FLASK_DEBUG=1
+4. flask run
+5. web akan berjalan di 127.0.0.1:5000
